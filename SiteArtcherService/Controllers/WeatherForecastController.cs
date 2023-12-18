@@ -15,9 +15,10 @@ namespace SiteArcherService.Controllers
             _logger = logger;
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Get()
         {
+            string teste = "testando conflitos em ambientes com mesmo codigo.";
             return NoContent();
         }
 
